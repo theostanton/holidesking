@@ -52,7 +52,7 @@ const linkStyle: CSSProperties = {
 
 const Home: React.FC = () => {
 
-    const definition = 'the practice of a remote worker, once they realise they can work from anywhere, of going to a holiday location to have as their ephemeral office'
+    const definition = 'the practice of a remote worker, once realising they can work from anywhere, of going to a holiday location to have as their ephemeral office'
 
     return <Container>
         <Title>holi-desking</Title>
