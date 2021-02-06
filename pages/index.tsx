@@ -66,10 +66,6 @@ const linkStyle: CSSProperties = {
 }
 export const DESCRIPTION = 'the practice of a remote worker, once realising they can work from anywhere, going to a holiday location to have as their ephemeral office'
 
-export const getStaticProps = () => {
-    return {props:{}}
-}
-
 const Home: React.FC = () => {
     return <Container>
         <Title>holi-desking</Title>
