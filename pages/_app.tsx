@@ -32,6 +32,8 @@ export default function App({Component, pageProps}) {
                 <meta name="twitter:description" content={DESCRIPTION}/>
                 <meta name="twitter:site" content={site}/>
                 <meta name="twitter:creator" content="Theo Stanton"/>
+                <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png"/>
+                <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png"/>
             </Head>
             <GlobalStyle/>
             <Component {...pageProps} />

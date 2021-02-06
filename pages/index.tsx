@@ -1,5 +1,9 @@
 import React, {CSSProperties} from "react";
 import styled from 'styled-components'
+import {Property} from "csstype";
+
+const black: string = '#000000dd'
+const grey: string = '#00000088'
 
 
 const Container = styled.div`
@@ -7,22 +11,28 @@ const Container = styled.div`
   flex-direction: column;
 `
 
-const Title = styled.div`
+const Title = styled.h1`
   flex: 0;
+  margin: 16px 0 8px;
+  font-weight: lighter;
   font-size: 144px;
+  color: ${black}
 `
-const Subtitle = styled.div`
+const Subtitle = styled.h2`
   flex: 0;
+  margin: 0;
+  font-weight: normal;
   font-size: 48px;
   font-style: italic;
   padding-top: 16px;
-  color: #00000088;
+  color: ${grey};
 `
 
-const Definition = styled.div`
+const Definition = styled.p`
   font-size: 36px;
   padding: 16px 0 64px;
-  flex: 1
+  flex: 1;
+  color: ${black}
 `
 
 const Footer = styled.div`
@@ -32,17 +42,21 @@ const Footer = styled.div`
   padding-top: 32px;
 `
 
-const Left = styled.div`
+const Left = styled.h3`
+  font-weight: normal;
   font-size: 36px;
   text-decoration: none;
   flex: 1;
+  color: ${grey};
 `
 
-const Right = styled.div`
+const Right = styled.h3`
+  font-weight: normal;
   font-size: 36px;
   font-style: italic;
   text-align: right;
   flex: 1;
+  color: ${grey};
 `
 
 const linkStyle: CSSProperties = {
