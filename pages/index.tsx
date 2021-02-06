@@ -1,6 +1,7 @@
 import React, {CSSProperties} from "react";
 import styled from 'styled-components'
 import {Property} from "csstype";
+import {GetStaticProps} from "next";
 
 const black: string = '#000000dd'
 const grey: string = '#00000088'
@@ -65,9 +66,11 @@ const linkStyle: CSSProperties = {
 }
 export const DESCRIPTION = 'the practice of a remote worker, once realising they can work from anywhere, going to a holiday location to have as their ephemeral office'
 
+export const getStaticProps = () => {
+    return {props:{}}
+}
+
 const Home: React.FC = () => {
-
-
     return <Container>
         <Title>holi-desking</Title>
         <Subtitle>noun</Subtitle>
