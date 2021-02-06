@@ -9,28 +9,28 @@ const grey: string = '#00000088'
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 5%;
 `
 
 const Title = styled.h1`
   flex: 0;
-  margin: 16px 0 8px;
+  margin: 64px 0 32px;
   font-weight: lighter;
-  font-size: 144px;
+  font-size: 12vw;
   color: ${black}
 `
 const Subtitle = styled.h2`
   flex: 0;
-  margin: 0;
+  margin: 16px 0 0;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 4vw;
   font-style: italic;
-  padding-top: 16px;
   color: ${grey};
 `
 
 const Definition = styled.p`
-  font-size: 36px;
-  padding: 16px 0 64px;
+  font-size: 4vw;
+  margin: 16px 0 64px;
   flex: 1;
   color: ${black}
 `
@@ -39,12 +39,12 @@ const Footer = styled.div`
   flex: 0;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 32px;
+  margin: 16px 0 16px
 `
 
 const Left = styled.h3`
   font-weight: normal;
-  font-size: 36px;
+  font-size: 3vw;
   text-decoration: none;
   flex: 1;
   color: ${grey};
@@ -52,7 +52,7 @@ const Left = styled.h3`
 
 const Right = styled.h3`
   font-weight: normal;
-  font-size: 36px;
+  font-size: 3vw;
   font-style: italic;
   text-align: right;
   flex: 1;

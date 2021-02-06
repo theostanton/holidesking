@@ -6,9 +6,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     display: flex;
     margin: 0;
-    padding: 64px;
+    padding: 0;
     box-sizing: border-box;
-    color: #000000EE;
     font-family: Arial, serif;
   }
 `
