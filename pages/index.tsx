@@ -16,7 +16,7 @@ const Container = styled.div`
 const Title = styled.h1`
   flex: 0;
   margin: 64px 0 32px;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 12vw;
   color: ${black}
 `
