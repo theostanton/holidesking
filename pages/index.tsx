@@ -49,15 +49,15 @@ const linkStyle: CSSProperties = {
     textDecoration: 'none',
     color: '#00000066'
 }
+export const DESCRIPTION = 'the practice of a remote worker, once realising they can work from anywhere, going to a holiday location to have as their ephemeral office'
 
 const Home: React.FC = () => {
 
-    const definition = 'the practice of a remote worker, once realising they can work from anywhere, going to a holiday location to have as their ephemeral office'
 
     return <Container>
         <Title>holi-desking</Title>
         <Subtitle>noun</Subtitle>
-        <Definition>{definition}</Definition>
+        <Definition>{DESCRIPTION}</Definition>
         <Footer>
             <Left>
                 <a href={"https://theo.dev"} style={linkStyle}>
