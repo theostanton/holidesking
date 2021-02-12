@@ -9,13 +9,13 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, serif;
-    background-color:  #f7f1e0;
+    background-color: #f7f1e0;
   }
 `
 
 export default function App({Component, pageProps}) {
 
-    const title: string = "Holidesking"
+    const title: string = "holi-desking"
     const site: string = "https://holidesking.com"
     return (
         <>
@@ -34,6 +34,7 @@ export default function App({Component, pageProps}) {
                 <meta name="twitter:creator" content="Theo Stanton"/>
                 <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png"/>
                 <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png"/>
+                <script async defer data-domain="holidesking" src="https://plausible.io/js/plausible.js"/>
             </Head>
             <GlobalStyle/>
             <Component {...pageProps} />
