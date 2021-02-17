@@ -68,7 +68,7 @@ export const DESCRIPTION = 'the practice of a remote worker, once realising they
 
 const Home: React.FC = () => {
     return <Container>
-        <Title>holi-desking</Title>
+        <Title>holidesking</Title>
         <Subtitle>noun</Subtitle>
         <Definition>{DESCRIPTION}</Definition>
         <Footer>
